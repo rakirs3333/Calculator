@@ -1,0 +1,100 @@
+body{
+    background:grey
+}
+
+.calculator-box{
+    display: flex;
+    padding: 15px;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    border: solid black;
+    justify-content: space-between;
+    align-self: center;
+    margin: auto;
+}
+.calculator-box .calculator-screen
+{
+    display: flex;
+    flex: 1;
+    height: auto;
+    width: auto;
+    background: white;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.calculator-screen .live{
+    flex: 0.3 0 0;
+    background-color: aqua;
+}
+
+.calculator-box>.row1 ,.calculator-box>.row2,.calculator-box>.row3{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+/* .calculator-box .row2{
+    display: flex;
+    flex: 1;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+}
+
+.calculator-box .row3{
+    display: flex;
+    flex: 1;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+} */
+
+.calculator-box .row4{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.row1 button{
+    flex: 1;
+    margin-top: 10px;
+}
+
+.row2 button{
+    flex: 1;
+    margin-top: 10px;
+}
+
+.row3 button{
+    flex: 1;
+    margin-top: 10px;
+}
+
+.row4 button{
+    flex: auto;
+    margin-top: 10pxs;
+}
+
+.calculator-box .operations{
+    display: flex;
+    flex: 1;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.operations button{
+    flex: 1;
+}
+
+.calculator-box .clear{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.clear button{
+    flex: 1;
+}
